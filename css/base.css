@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Hanken+Grotesk:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+/* CUSTOM PROPERTIES */
+:root{
+    /* FONT WEIGHTS */
+    --medium: 500;
+    --bold: 700;
+    --extra-bold: 800;
+
+    /* COLORS */
+    --clr-blue: hsl(234, 85%, 45%);
+    --clr-blue-05: hsla(234, 85%, 45%, .05);
+    --clr-green: hsl(166, 100%, 37%);
+    --clr-green-05: hsla(166, 100%, 37%, .05);
+    --clr-red: hsl(0, 100%, 67%);
+    --clr-red-05: hsla(0, 100%, 67%, .05);
+    --clr-yellow: hsl(39, 100%, 56%);
+    --clr-yellow-05: hsla(39, 100%, 56%, .05);
+
+    /* GRADIENTS */
+    --slate-blue: hsl(252, 100%, 67%);
+    --royal-blue: hsl(241, 81%, 54%);
+    
+    --blue-gradient: linear-gradient(var(--slate-blue), var(--royal-blue));
+    
+    /* NEUTRALS */
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-neutral-96: hsl(221, 100%, 96%);
+    --clr-neutral-89: hsl(241, 100%, 89%);
+    --clr-neutral-27: hsl(224, 30%, 27%);
+}
+
+body, body *{
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.title{
+    font-size: 18px;
+    font-weight: var(--bold);
+}
