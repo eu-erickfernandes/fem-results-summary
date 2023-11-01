@@ -4,7 +4,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ## Contents
 - [The challenge](#the-challenge)
-- [Built with](#build-with)
+- [Built with](#built-with)
 - [Links](#links)
 
 ### The challenge
